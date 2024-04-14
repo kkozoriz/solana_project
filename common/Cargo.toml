@@ -1,0 +1,10 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+borsh = "1.4.0"
+solana-program = "1.18.9"
+getrandom = { version = "0.1.14", features = ["dummy"] }
